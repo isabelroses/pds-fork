@@ -8,5 +8,10 @@
   "license": "MIT",
   "dependencies": {
     "@atproto/pds": "0.4.193"
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "@atproto/pds@0.4.193": "patches/@atproto__pds@0.4.193.patch"
+    }
   }
 }
