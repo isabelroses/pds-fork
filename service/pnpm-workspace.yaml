@@ -1,0 +1,6 @@
+ignorePatchFailures: false
+onlyBuiltDependencies:
+  - better-sqlite3
+patchedDependencies:
+  '@atproto/pds': patches/@atproto__pds.patch
+  '@atproto/oauth-provider': patches/@atproto__oauth-provider.patch
